@@ -28,7 +28,7 @@ jobs:
           pip install Pillow
       
       - name: Generate thumbnails
-        run: python scripts/generate-thumbnails.py
+        run: python scripts/generate_thumbnails.py
         
       - name: Check for changes
         id: verify-changed-files
