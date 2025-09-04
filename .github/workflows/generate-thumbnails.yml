@@ -1,0 +1,49 @@
+name: Generate Card Thumbnails
+
+on:
+  push:
+    paths: 
+      - 'data/imgs/full/**'    # Trigger when images in full folder change
+    branches: [main]
+  workflow_dispatch:           # Allow manual triggering
+
+jobs:
+  generate-thumbnails:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install Python dependencies
+        run: |
+          pip install Pillow
+      
+      - name: Generate thumbnails
+        run: python scripts/generate-thumbnails.py
+        
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit thumbnails
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add data/imgs/thumbs/
+          git commit -m "Auto-generate thumbnails for card images"
+          git push
