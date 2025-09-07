@@ -53429,5 +53429,772 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Dragonlord",
+    "guardian": {
+      "rarity": "Unique",
+      "type": "Avatar",
+      "rulesText": "Tap \u2192 Play or draw a site.\n\nBefore setup, set aside a Unique Dragon. Once on your turn, if you meet its threshold, you may pay (3) to gain its abilities this turn.",
+      "cost": null,
+      "attack": 1,
+      "defence": 1,
+      "life": 20,
+      "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+      }
+    },
+    "elements": "None",
+    "subTypes": "",
+    "sets": [
+      {
+        "name": "Dragonlord",
+        "releasedAt": "2025-08-01T20:11:58.215Z",
+        "metadata": {
+          "rarity": "Unique",
+          "type": "Avatar",
+          "rulesText": "Tap \u2192 Play or draw a site.\n\nBefore setup, set aside a Unique Dragon. Once on your turn, if you meet its threshold, you may pay (3) to gain its abilities this turn.",
+          "cost": null,
+          "attack": 1,
+          "defence": 1,
+          "life": 20,
+          "thresholds": {
+            "air": 0,
+            "earth": 0,
+            "fire": 0,
+            "water": 0
+          }
+        },
+        "variants": [
+          {
+            "slug": "dra_dragonlord_b_s",
+            "finish": "Standard",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "Your Avatar commands respect and fear"
+          },
+          {
+            "slug": "dra_dragonlord_b_f",
+            "finish": "Foil",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "Your Avatar commands respect and fear"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kairos the Archivist",
+    "guardian": {
+      "rarity": "Unique",
+      "type": "Artifact",
+      "rulesText": "Genesis \u2192 Archive the state of the realm.\nDeathrite \u2192 Return all archived cards to their recorded state. Then banish Kairos.",
+      "cost": 7,
+      "attack": 3,
+      "defence": 3,
+      "life": null,
+      "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+      }
+    },
+    "elements": "None",
+    "subTypes": "Dragon, Automaton",
+    "sets": [
+      {
+        "name": "Dragonlord",
+        "releasedAt": "2025-08-01T20:11:58.215Z",
+        "metadata": {
+          "rarity": "Unique",
+          "type": "Artifact",
+          "rulesText": "Genesis \u2192 Archive the state of the realm.\nDeathrite \u2192 Return all archived cards to their recorded state. Then banish Kairos.",
+          "cost": 7,
+          "attack": 3,
+          "defence": 3,
+          "life": null,
+          "thresholds": {
+            "air": 0,
+            "earth": 0,
+            "fire": 0,
+            "water": 0
+          }
+        },
+        "variants": [
+          {
+            "slug": "dra_kairos_the_archivist_b_s",
+            "finish": "Standard",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Dragon Automaton turns back time"
+          },
+          {
+            "slug": "dra_kairos_the_archivist_b_f",
+            "finish": "Foil",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Dragon Automaton turns back time"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Caelestis",
+    "guardian": {
+      "rarity": "Unique",
+      "type": "Minion",
+      "rulesText": "Airborne, Voidwalk\n\nTap \u2192 The next Dragon you cast to this location costs (0) this turn.",
+      "cost": 7,
+      "attack": 5,
+      "defence": 5,
+      "life": null,
+      "thresholds": {
+        "air": 1,
+        "earth": 1,
+        "fire": 1,
+        "water": 1
+      }
+    },
+    "elements": "Earth, Fire, Water, Air",
+    "subTypes": "Dragon, Spirit",
+    "sets": [
+      {
+        "name": "Dragonlord",
+        "releasedAt": "2025-08-01T20:11:58.215Z",
+        "metadata": {
+          "rarity": "Unique",
+          "type": "Minion",
+          "rulesText": "Airborne, Voidwalk\n\nTap \u2192 The next Dragon you cast to this location costs (0) this turn.",
+          "cost": 7,
+          "attack": 5,
+          "defence": 5,
+          "life": null,
+          "thresholds": {
+            "air": 1,
+            "earth": 1,
+            "fire": 1,
+            "water": 1
+          }
+        },
+        "variants": [
+          {
+            "slug": "dra_caelestis_b_s",
+            "finish": "Standard",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "The Unique essence of a Dragon's Spirit"
+          },
+          {
+            "slug": "dra_caelestis_b_f",
+            "finish": "Foil",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "The Unique essence of a Dragon's Spirit"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Xeraphine Konrul",
+    "guardian": {
+      "rarity": "Unique",
+      "type": "Minion",
+      "rulesText": "Airborne\n\nAt the end of your turn, you may choose three of your dead minions. Banish two to return the remaining one to hand.",
+      "cost": 7,
+      "attack": 5,
+      "defence": 5,
+      "life": null,
+      "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 2,
+        "water": 2
+      }
+    },
+    "elements": "Fire, Water",
+    "subTypes": "Beast, Dragon",
+    "sets": [
+      {
+        "name": "Dragonlord",
+        "releasedAt": "2025-08-01T20:11:58.215Z",
+        "metadata": {
+          "rarity": "Unique",
+          "type": "Minion",
+          "rulesText": "Airborne\n\nAt the end of your turn, you may choose three of your dead minions. Banish two to return the remaining one to hand.",
+          "cost": 7,
+          "attack": 5,
+          "defence": 5,
+          "life": null,
+          "thresholds": {
+            "air": 0,
+            "earth": 0,
+            "fire": 2,
+            "water": 2
+          }
+        },
+        "variants": [
+          {
+            "slug": "dra_xeraphine_konrul_b_s",
+            "finish": "Standard",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Beast kindles the life of Dragons"
+          },
+          {
+            "slug": "dra_xeraphine_konrul_b_f",
+            "finish": "Foil",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Beast kindles the life of Dragons"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Draco Corvus",
+    "guardian": {
+      "rarity": "Unique",
+      "type": "Minion",
+      "rulesText": "Airborne, Stealth\n\nTap \u2192 Teleport to target tapped minion to burrow it.",
+      "cost": 7,
+      "attack": 5,
+      "defence": 5,
+      "life": null,
+      "thresholds": {
+        "air": 2,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+      }
+    },
+    "elements": "Earth, Air",
+    "subTypes": "Dragon",
+    "sets": [
+      {
+        "name": "Dragonlord",
+        "releasedAt": "2025-08-01T20:11:58.215Z",
+        "metadata": {
+          "rarity": "Unique",
+          "type": "Minion",
+          "rulesText": "Airborne, Stealth\n\nTap \u2192 Teleport to target tapped minion to burrow it.",
+          "cost": 7,
+          "attack": 5,
+          "defence": 5,
+          "life": null,
+          "thresholds": {
+            "air": 2,
+            "earth": 2,
+            "fire": 0,
+            "water": 0
+          }
+        },
+        "variants": [
+          {
+            "slug": "dra_draco_corvus_b_s",
+            "finish": "Standard",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Dragon returns souls to the cycle"
+          },
+          {
+            "slug": "dra_draco_corvus_b_f",
+            "finish": "Foil",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Dragon returns souls to the cycle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Moonsong Talagelum",
+    "guardian": {
+      "rarity": "Unique",
+      "type": "Minion",
+      "rulesText": "Airborne\n\nCounts as a Grey Wolves and has +1 power for each other Grey Wolves nearby.",
+      "cost": 3,
+      "attack": 3,
+      "defence": 3,
+      "life": null,
+      "thresholds": {
+        "air": 1,
+        "earth": 2,
+        "fire": 0,
+        "water": 0
+      }
+    },
+    "elements": "Earth, Air",
+    "subTypes": "Dragon",
+    "sets": [
+      {
+        "name": "Dragonlord",
+        "releasedAt": "2025-08-01T20:11:58.215Z",
+        "metadata": {
+          "rarity": "Unique",
+          "type": "Minion",
+          "rulesText": "Airborne\n\nCounts as a Grey Wolves and has +1 power for each other Grey Wolves nearby.",
+          "cost": 3,
+          "attack": 3,
+          "defence": 3,
+          "life": null,
+          "thresholds": {
+            "air": 1,
+            "earth": 2,
+            "fire": 0,
+            "water": 0
+          }
+        },
+        "variants": [
+          {
+            "slug": "dra_moonsong_talagelum_b_s",
+            "finish": "Standard",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Dragon raised by wolves"
+          },
+          {
+            "slug": "dra_moonsong_talagelum_b_f",
+            "finish": "Foil",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Dragon raised by wolves"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Adtonitum",
+    "guardian": {
+      "rarity": "Unique",
+      "type": "Minion",
+      "rulesText": "Airborne, Movement +1\n\nWhenever Adtonitum stops, she may deal 3 damage to another random unit there.",
+      "cost": 7,
+      "attack": 6,
+      "defence": 6,
+      "life": null,
+      "thresholds": {
+        "air": 3,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+      }
+    },
+    "elements": "Air",
+    "subTypes": "Dragon",
+    "sets": [
+      {
+        "name": "Dragonlord",
+        "releasedAt": "2025-08-01T20:11:58.215Z",
+        "metadata": {
+          "rarity": "Unique",
+          "type": "Minion",
+          "rulesText": "Airborne, Movement +1\n\nWhenever Adtonitum stops, she may deal 3 damage to another random unit there.",
+          "cost": 7,
+          "attack": 6,
+          "defence": 6,
+          "life": null,
+          "thresholds": {
+            "air": 3,
+            "earth": 0,
+            "fire": 0,
+            "water": 0
+          }
+        },
+        "variants": [
+          {
+            "slug": "dra_adtonitum_b_s",
+            "finish": "Standard",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Dragon leaves thunder in its wake"
+          },
+          {
+            "slug": "dra_adtonitum_b_f",
+            "finish": "Foil",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Dragon leaves thunder in its wake"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Talamh Dreig",
+    "guardian": {
+      "rarity": "Unique",
+      "type": "Minion",
+      "rulesText": "Can't be moved by force.\n\nHas +1 power for each adjacent site.",
+      "cost": 7,
+      "attack": 6,
+      "defence": 6,
+      "life": null,
+      "thresholds": {
+        "air": 0,
+        "earth": 3,
+        "fire": 0,
+        "water": 0
+      }
+    },
+    "elements": "Earth",
+    "subTypes": "Dragon",
+    "sets": [
+      {
+        "name": "Dragonlord",
+        "releasedAt": "2025-08-01T20:11:58.215Z",
+        "metadata": {
+          "rarity": "Unique",
+          "type": "Minion",
+          "rulesText": "Can't be moved by force.\n\nHas +1 power for each adjacent site.",
+          "cost": 7,
+          "attack": 6,
+          "defence": 6,
+          "life": null,
+          "thresholds": {
+            "air": 0,
+            "earth": 3,
+            "fire": 0,
+            "water": 0
+          }
+        },
+        "variants": [
+          {
+            "slug": "dra_talamh_dreig_b_s",
+            "finish": "Standard",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "The realm's strength lies in this Unique Dragon"
+          },
+          {
+            "slug": "dra_talamh_dreig_b_f",
+            "finish": "Foil",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "The realm's strength lies in this Unique Dragon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ignis Rex",
+    "guardian": {
+      "rarity": "Unique",
+      "type": "Minion",
+      "rulesText": "Airborne, Immune to fire damage\n\nOnce on your turn, discard a fire card \u2192 Deal 3 damage to units at target adjacent location.",
+      "cost": 7,
+      "attack": 6,
+      "defence": 6,
+      "life": null,
+      "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 3,
+        "water": 0
+      }
+    },
+    "elements": "Fire",
+    "subTypes": "Dragon",
+    "sets": [
+      {
+        "name": "Dragonlord",
+        "releasedAt": "2025-08-01T20:11:58.215Z",
+        "metadata": {
+          "rarity": "Unique",
+          "type": "Minion",
+          "rulesText": "Airborne, Immune to fire damage\n\nOnce on your turn, discard a fire card \u2192 Deal 3 damage to units at target adjacent location.",
+          "cost": 7,
+          "attack": 6,
+          "defence": 6,
+          "life": null,
+          "thresholds": {
+            "air": 0,
+            "earth": 0,
+            "fire": 3,
+            "water": 0
+          }
+        },
+        "variants": [
+          {
+            "slug": "dra_ignis_rex_b_s",
+            "finish": "Standard",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Dragon of purifying flame"
+          },
+          {
+            "slug": "dra_ignis_rex_b_f",
+            "finish": "Foil",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Dragon of purifying flame"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vatn Draconis",
+    "guardian": {
+      "rarity": "Unique",
+      "type": "Minion",
+      "rulesText": "Submerge\n\nAt the end of your turn, you may submerge all minions and artifacts here.",
+      "cost": 7,
+      "attack": 6,
+      "defence": 6,
+      "life": null,
+      "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 3
+      }
+    },
+    "elements": "Water",
+    "subTypes": "Dragon",
+    "sets": [
+      {
+        "name": "Dragonlord",
+        "releasedAt": "2025-08-01T20:11:58.215Z",
+        "metadata": {
+          "rarity": "Unique",
+          "type": "Minion",
+          "rulesText": "Submerge\n\nAt the end of your turn, you may submerge all minions and artifacts here.",
+          "cost": 7,
+          "attack": 6,
+          "defence": 6,
+          "life": null,
+          "thresholds": {
+            "air": 0,
+            "earth": 0,
+            "fire": 0,
+            "water": 3
+          }
+        },
+        "variants": [
+          {
+            "slug": "dra_vatn_draconis_b_s",
+            "finish": "Standard",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Dragon of worldly deluge"
+          },
+          {
+            "slug": "dra_vatn_draconis_b_f",
+            "finish": "Foil",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Dragon of worldly deluge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cradle of Etherrum",
+    "guardian": {
+      "rarity": "Unique",
+      "type": "Artifact",
+      "rulesText": "Any time during your turn, you may look at your next spell.\n\nYou may cast Dragons from the top of your spellbook here for (1) less.",
+      "cost": 2,
+      "attack": null,
+      "defence": null,
+      "life": null,
+      "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+      }
+    },
+    "elements": "None",
+    "subTypes": "Relic",
+    "sets": [
+      {
+        "name": "Dragonlord",
+        "releasedAt": "2025-08-01T20:11:58.215Z",
+        "metadata": {
+          "rarity": "Unique",
+          "type": "Artifact",
+          "rulesText": "Any time during your turn, you may look at your next spell.\n\nYou may cast Dragons from the top of your spellbook here for (1) less.",
+          "cost": 2,
+          "attack": null,
+          "defence": null,
+          "life": null,
+          "thresholds": {
+            "air": 0,
+            "earth": 0,
+            "fire": 0,
+            "water": 0
+          }
+        },
+        "variants": [
+          {
+            "slug": "dra_cradle_of_etherrum_b_s",
+            "finish": "Standard",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Relic and hope of an ancient race"
+          },
+          {
+            "slug": "dra_cradle_of_etherrum_b_f",
+            "finish": "Foil",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Relic and hope of an ancient race"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shrine of the Dragonlord",
+    "guardian": {
+      "rarity": "Unique",
+      "type": "Artifact",
+      "rulesText": "Genesis \u2192 Teleport all Dragons here.\n\nThis site provides an additional (1) and (E)(F)(W)(A).",
+      "cost": 2,
+      "attack": null,
+      "defence": null,
+      "life": null,
+      "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+      }
+    },
+    "elements": "None",
+    "subTypes": "Monument",
+    "sets": [
+      {
+        "name": "Dragonlord",
+        "releasedAt": "2025-08-01T20:11:58.215Z",
+        "metadata": {
+          "rarity": "Unique",
+          "type": "Artifact",
+          "rulesText": "Genesis \u2192 Teleport all Dragons here.\n\nThis site provides an additional (1) and (E)(F)(W)(A).",
+          "cost": 2,
+          "attack": null,
+          "defence": null,
+          "life": null,
+          "thresholds": {
+            "air": 0,
+            "earth": 0,
+            "fire": 0,
+            "water": 0
+          }
+        },
+        "variants": [
+          {
+            "slug": "dra_shrine_of_the_dragonlord_b_s",
+            "finish": "Standard",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Monument springs primordial powers"
+          },
+          {
+            "slug": "dra_shrine_of_the_dragonlord_b_f",
+            "finish": "Foil",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Monument springs primordial powers"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dragonlord's Lair",
+    "guardian": {
+      "rarity": "Unique",
+      "type": "Site",
+      "rulesText": "Dragons cast to this site require no threshold and cost (1) less.",
+      "cost": null,
+      "attack": null,
+      "defence": null,
+      "life": null,
+      "thresholds": {
+        "air": 0,
+        "earth": 0,
+        "fire": 0,
+        "water": 0
+      }
+    },
+    "elements": "None",
+    "subTypes": "",
+    "sets": [
+      {
+        "name": "Dragonlord",
+        "releasedAt": "2025-08-01T20:11:58.215Z",
+        "metadata": {
+          "rarity": "Unique",
+          "type": "Site",
+          "rulesText": "Dragons cast to this site require no threshold and cost (1) less.",
+          "cost": null,
+          "attack": null,
+          "defence": null,
+          "life": null,
+          "thresholds": {
+            "air": 0,
+            "earth": 0,
+            "fire": 0,
+            "water": 0
+          }
+        },
+        "variants": [
+          {
+            "slug": "dra_dragonlords_lair_b_s",
+            "finish": "Standard",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Site where dragons first took flight"
+          },
+          {
+            "slug": "dra_dragonlords_lair_b_f",
+            "finish": "Foil",
+            "product": "Booster",
+            "artist": "Ed Beard Jr.",
+            "flavorText": "",
+            "typeText": "A Unique Site where dragons first took flight"
+          }
+        ]
+      }
+    ]
   }
 ]
