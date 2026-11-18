@@ -4,6 +4,32 @@ This folder contains automation scripts for maintaining the card image database.
 
 ## 📝 Scripts
 
+### `import_set.py`
+
+Imports one set from the [official API](https://api.sorcerytcg.com/) and its
+downloaded PNGs from the [official image folder](https://drive.google.com/drive/folders/17IrJkRGmIU9fDSTU2JQEU9JlFzb5liLJ).
+The current API uses `engine` and `printings`; the importer translates them to
+the existing `guardian`, `sets`, and `variants` schema. It retains existing card
+names, earlier set appearances, and legacy slugs, and refreshes gameplay fields
+for cards in the imported set. Other cards are left unchanged.
+
+Download the set's original PNGs into a local directory, keeping their official
+numeric filenames (for example, `008-frost_mage-pd-s.png`), then run:
+
+```bash
+python3 scripts/import_set.py \
+  --set "Frost Mage Vs. Lavamancer" \
+  --prefix fro \
+  --images-dir /path/to/downloaded/images
+python3 scripts/generate_thumbnails.py
+```
+
+The importer requires only Python's standard library. Thumbnail generation also
+requires Pillow. Use `--api-json /path/to/cards.json` to reuse a previously saved
+official API response. Repeating an import updates matching variants without
+duplicating them. It imports only the specified set; it does not migrate the
+rest of the database to the new API format.
+
 ### `generate_thumbnails.py`
 
 Automatically generates JPG thumbnails from PNG card images.
